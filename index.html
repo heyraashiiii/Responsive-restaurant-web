@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiano Resto.in</title>
+
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body style="background-color: rgb(207, 249, 249)">
+
+    <!--navbar-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-success fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="#">CHIANO RESTO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#order">Orders</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Deals
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Chinese</a></li>
+            <li><a class="dropdown-item" href="#">Korean</a></li>
+            <li><a class="dropdown-item" href="#">Arabic</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#footer" tabindex="-1" aria-disabled="true">Location</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-dark" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- carousal-->
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class=" carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/Arabic cab.png" class=" slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2> Arabian Masalas</h2>
+        <p>Enjoy the authentic taste of Arabic cuisine with our flavorful dishes.
+From juicy shawarma to aromatic mandi and creamy hummus, every meal reflects tradition and richness.
+Perfect for sharing and satisfying your cravings.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/chinese cab1.png" class=" slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2> Korean Flavours</h2>
+        <p>Indulge in the rich and spicy flavors of Korean cuisine.
+ every dish is full of taste and tradition.
+A truly satisfying and comforting food experience.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/cab3.avif" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2> chinease Dishes</h2>
+        <p>Experience the bold and savory flavors of Chinese cuisine.
+From sizzling noodles to perfectly fried rice and dumplings, every dish is crafted with fresh ingredients and rich sauces.
+A perfect balance of taste, aroma, and texture in every bite.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--order section-->
+
+<h2 class=" order text-center";">Order Your Favourite Dishes Now...</h2>
+<br>
+<div class="container" id="order">
+  
+            <div class="row my-2" >
+                <div class="colum col-lg-4 col-md-6 col-12">
+                    <div class="card border-3 border-success" style=" height: 25rem;border-radius: 5px;">
+                    <img src="images/Machboos.jpeg" class="card-img-top" alt="Machboos">
+                        <div class="card-body">
+                        <h5 class="card-title">Machboos</h5>
+                        <p class="card-text">A savory rice dish popular in the Arabian Peninsula, cooked with meat, vegetables, and a distinct blend of spices like saffron, cardamom, and cloves</p>
+                        <h6 class="card-title text-dark">RS: 799.00</h6>
+                        <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" colum col-lg-4 col-md-6 col-12">
+                    <div class="card border-3 border-success" style=" height: 25rem;border-radius: 5px;">
+                    <img src="images/kabab.jpeg" class="card-img-top" alt="kabab">
+                        <div class="card-body">
+                        <h5 class="card-title">Kabab</h5>
+                        <p class="card-text">Various types of grilled or roasted meat skewers. Popular variations include Shish Tawook (grilled chicken skewers) and Lamb Kababs</p>
+                        <h6 class="card-title text-dark">RS: 249.00</h6>
+                        <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                      </div>
+                    </div>
+                </div>
+                <div class=" colum col-lg-4 col-md-6 col-12">
+                    <div class="card border-3 border-success" style="height: 25rem;border-radius: 5px;">
+                    <img src="images/Lentil Soup.jpeg" class="card-img-top" alt="Soup">
+                        <div class="card-body">
+                        <h5 class="card-title">Lentil Soup</h5>
+                        <p class="card-text">A hearty and nutritious soup made primarily from red or brown lentils, vegetables, and aromatic spices like cumin and turmeric</p>
+                        <h6 class="card-title text-dark">RS: 179.00</h6>
+                        <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="row my-2" >
+                <div class="colum col-lg-4 col-md-6 col-12">
+                    <div class="card border-3 border-success" style=" height: 25rem;border-radius: 5px;">
+                    <img src="images/backlava.jpeg" class="card-img-top" alt="backlava">
+                        <div class="card-body">
+                        <h5 class="card-title">Backlava</h5>
+                        <p class="card-text">A rich pastry made of layers of filo dough filled with chopped nuts and sweetened with syrup or <br>honey</p>
+                        <h6 class="card-title text-dark">RS: 199.00</h6>
+                        <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" colum col-lg-4 col-md-6 col-12">
+                    <div class="card border-3 border-success" style=" height: 25rem;border-radius: 5px;">
+                    <img src="images/baba ganoush.jpeg" class="card-img-top" alt="baba ganoush">
+                        <div class="card-body">
+                        <h5 class="card-title">Baba Ganoush</h5>
+                        <p class="card-text">A smoky roasted eggplant dip, mashed with tahini, olive oil, garlic, and lemon juice. It is often served with pita bread</p>
+                        <h6 class="card-title text-dark">RS: 249.00</h6>
+                        <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                      </div>
+                    </div>
+                </div>
+                <div class=" colum col-lg-4 col-md-6 col-12">
+                    <div class="card border-3 border-success" style="height: 25rem;border-radius: 5px;">
+                    <img src="images/hummus.jpeg" class="card-img-top" alt="hummus">
+                        <div class="card-body">
+                        <h5 class="card-title">Hummus</h5>
+                        <p class="card-text">A creamy dip made from chickpeas, tahini (sesame paste), lemon juice, and garlic. It is typically served with olive oil, paprika, and pita bread</p>
+                        <h6 class="card-title text-dark">RS: 219.00</h6>
+                        <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="row my-1  " >
+                <div class=" colum col-lg-4 col-md-6 col-12">
+                    <div class="card border-3 border-success" style="height: 25rem;border-radius: 5px;">
+                      <img src="images/chinese 1.jpeg" class="card-img-top" alt="dim sum">
+                        <div class="card-body">
+                        <h5 class="card-title">Dim Sum</h5>
+                        <p class="card-text">Small plates of savory or sweet dishes, including dumplings, buns, and spring rolls, typically enjoyed with tea</p>
+                        <h6 class="card-title text-dark">RS: 379.00</h6>
+                        <a href="#" onclick="orderNow() " class="btn btn-success ">Order now</a>
+                        </div>
+                    </div>
+                  </div>
+                <div class=" colum col-lg-4 col-md-6 col-12">
+                  <div class="card border-3 border-success" style="height: 25rem;border-radius: 5px;">
+                    <img src="images/mapo tofu.jpeg" class="card-img-top" alt="mapo tofu">
+                        <div class="card-body">
+                        <h5 class="card-title">Mapo Tofu</h5>
+                        <p class="card-text">A spicy and numbing Sichuan dish made with silken tofu, minced meat (usually pork or beef), and Sichuan peppercorns in a savory sauce</p>
+                        <h6 class="card-title text-dark">RS: 499.00</h6>
+                        <a href="#" 
+                       onclick="orderNow() " class="btn btn-success ">Order now</a>
+                        </div>
+                    </div>
+              </div>
+                <div class=" colum col-lg-4 col-md-6 col-12">
+                  <div class="card border-3 border-success" style="height: 25rem;border-radius: 5px;">
+                    <img src="images/dam dam noodles.jpeg" class="card-img-top" alt="noodles">
+                        <div class="card-body">
+                        <h5 class="card-title">Dam Dam Noodles</h5>
+                        <p class="card-text">Spiced noodles from Sichuan province, typically served in a chili-oil-based broth with minced pork and pickled vegetables</p>
+                        <h6 class="card-title text-dark">RS: 249.00</h6>
+                        <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                        </div>
+                 </div>
+                </div>
+         </div>
+         <div class="row my-2" >
+           <div class="colum col-lg-4 col-md-6 col-12">
+             <div class="card border-3 border-success" style=" height: 25rem;border-radius: 5px;">
+               <img src="images/General Tso Chicken.jpeg" class="card-img-top" alt="General tso chicken">
+               <div class="card-body">
+                 <h5 class="card-title">General Tso Chicken</h5>
+                 <p class="card-text">A popular North American Chinese dish featuring deep-fried chicken in a sweet, spicy, and <br>tangy sauce</p>
+                 <h6 class="card-title text-dark">RS: 349.00</h6>
+                 <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                </div>
+              </div>
+            </div>
+            <div class=" colum col-lg-4 col-md-6 col-12">
+              <div class="card border-3 border-success" style=" height: 25rem;border-radius: 5px;">
+                <img src="images/Peking Duck.jpeg" class="card-img-top" alt="peking duck">
+                <div class="card-body">
+                  <h5 class="card-title">Pecking Duck</h5>
+                  <p class="card-text">A famous Beijing dish featuring roasted duck with crispy skin, typically served with thin pancakes, sweet bean sauce, scallions, and cucumber</p>
+                  <h6 class="card-title text-dark">RS: 549.00</h6>
+                  <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                </div>
+              </div>
+            </div>
+            <div class=" colum col-lg-4 col-md-6 col-12">
+              <div class="card border-3 border-success" style="height: 25rem;border-radius: 5px;">
+                <img src="images/Sweet and Sour Pork.jpeg" class="card-img-top" alt="Sweet and Sour Pork">
+                <div class="card-body">
+                  <h5 class="card-title">Sweet and Sour Pork</h5>
+                  <p class="card-text">Deep-fried pork cubes coated in a vibrant sweet and sour sauce, with bell peppers and pineapple. (A classic Chinese dish, but with traditional roots)</p>
+                  <h6 class="card-title text-dark">RS: 699.00</h6>
+                  <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-2" >
+           <div class="colum col-lg-4 col-md-6 col-12">
+             <div class="card border-3 border-success" style=" height: 25rem;border-radius: 5px;">
+               <img src="images/kimchi.jpeg" class="card-img-top" alt="kimchi">
+               <div class="card-body">
+                 <h5 class="card-title">Kimchi</h5>
+                 <p class="card-text">The quintessential Korean staple. It's a fermented side dish made from napa cabbage and radishes seasoned with chili powder, ginger, and other spices</p>
+                 <h6 class="card-title text-dark">RS: 299.00</h6>
+                 <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                </div>
+              </div>
+            </div>
+            <div class=" colum col-lg-4 col-md-6 col-12">
+              <div class="card border-3 border-success" style=" height: 25rem;border-radius: 5px;">
+                <img src="images/Tteokbokki.jpeg" class="card-img-top" alt="Tteokbokki">
+                <div class="card-body">
+                  <h5 class="card-title">Tteokbokki</h5>
+                  <p class="card-text">Spicy stir-fried rice cakes. These chewy, cylindrical rice cakes are cooked in a fiery, sweet, and savory red chili sauce . It’s a very popular street food</p>
+                  <h6 class="card-title text-dark">RS: 399.00</h6>
+                  <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                </div>
+              </div>
+            </div>
+            <div class=" colum col-lg-4 col-md-6 col-12">
+              <div class="card border-3 border-success" style="height: 25rem;border-radius: 5px;">
+                <img src="images/Bulgogi.jpeg" class="card-img-top" alt="Bulgogi">
+                <div class="card-body">
+                  <h5 class="card-title">Bulgogi</h5>
+                  <p class="card-text">Literally "fire meat." Thinly sliced beef or pork is marinated in a savory soy-sauce-based marinade and grilled, often at the table by diners</p>
+                  <h6 class="card-title text-dark">RS: 899.00</h6>
+                  <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-2" >
+           <div class="colum col-lg-4 col-md-6 col-12">
+             <div class="card border-3 border-success" style=" height: 25rem;border-radius: 5px;">
+               <img src="images/Samgyeopsal.jpeg" class="card-img-top" alt="Samgyeopsal">
+               <div class="card-body">
+                 <h5 class="card-title">Samgyeopsal</h5>
+                 <p class="card-text">Thickly sliced pork belly grilled right at the table. It is often served with various dipping sauces, garlic, and lettuce or perilla leaves for making wraps </p>
+                 <h6 class="card-title text-dark">RS: 399.00</h6>
+                 <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                </div>
+              </div>
+            </div>
+            <div class=" colum col-lg-4 col-md-6 col-12">
+              <div class="card border-3 border-success" style=" height: 25rem;border-radius: 5px;">
+                <img src="images/Japchae.jpeg" class="card-img-top" alt="Japchae">
+                <div class="card-body">
+                  <h5 class="card-title">Japchae</h5>
+                  <p class="card-text">Stir-fried sweet potato starch noodles with assorted vegetables and thin strips of beef. It has a slightly sweet and is often served at special occasions</p>
+                  <h6 class="card-title text-dark">RS: 249.00</h6>
+                  <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                </div>
+              </div>
+            </div>
+            <div class=" colum col-lg-4 col-md-6 col-12">
+              <div class="card border-3 border-success" style="height: 25rem;border-radius: 5px;">
+                <img src="images/Sundubu Jjigae.jpeg" class="card-img-top" alt="Sundubu Jjigae">
+                <div class="card-body">
+                  <h5 class="card-title">Sundubu Jjigae</h5>
+                  <p class="card-text">A fiery, spicy stew made with soft (silken) tofu, vegetables, often seafood or pork, and a raw egg cracked in right before serving.</p>
+                  <h6 class="card-title text-dark">RS: 499.00</h6>
+                  <a href="#" onclick="orderNow()" class="btn btn-success ">Order now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+        <hr>
+        <h2 class="our-vision" >Our Visison</h2>
+        <div class=" vision-box my-3 ">
+          <p style="font-family: Cambria; font-size: 1rem">Welcome to our restaurant, where every dish is prepared with passion, quality, and authentic flavors.<br> We truly appreciate our customers for their continuous support and trust, which motivates us to deliver the best dining experience every day. <br>Our menu is carefully crafted to bring you a variety of delicious cuisines that satisfy every craving, from traditional favorites to modern delights. We focus on using fresh ingredients, rich spices, and expert cooking techniques to ensure every bite is memorable. <br>Whether you are visiting with family, friends, or for a special occasion, we promise a warm atmosphere and exceptional service. Come and experience the perfect blend of taste, tradition, and hospitality — we look forward to serving you again and making every visit special.</p>
+        </div>
+
+        <!--footer-->
+        <div class="container-fluid bg-success" id="footer">
+          <div class="row">
+            <h1 class=" Location text-center" style="font-weight: 700; font-family: Cambria;">Location</h1>
+            <div class="col-6" style="font-family: Cambria;">
+              <h1 class=" address text-white"  >Stack Chinese Restaurant</h1>
+              <h4>Malappuram</h4>
+              <h4>Kerala</h4>
+              <p>Tel: 7123453</p>
+              <p>E-mail: stackfoods@gmail.com</p>
+              <p>Website: www.chiano resto.in</p>
+            </div>
+            <div class=" col-6 col-lg-4 col-md-6 col-12 ">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.171343927305!2d75.99328210928174!3d10.98710365704966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7b49e2de17005%3A0xfe012661c47d8bf0!2sParambilangadi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1776068337241!5m2!1sen!2sin" width="250" height="250"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              
+              
+            </div>
+            <div>
+              
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- button function-->
+
+
+<script>
+function orderNow() {
+    alert("✅ Your order has been confirmed!");
+}
+</script>
+
+    <!-- bootstrap.js  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js"></script>
+    
+</body>
+</html>
